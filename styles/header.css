@@ -132,7 +132,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 800px) {
   .nav-list {
       position: fixed;
       left: -110%;

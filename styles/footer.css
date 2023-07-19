@@ -18,16 +18,20 @@
 }
 
 .footer-scroll {
-  font-size: 5rem;
+  font-size: 0;
   font-style: italic;
   font-weight: bold;
   color: var(--main-text-color);
   transition: ease-in-out 1.5s;
 }
 
+.footer-scroll span {
+  font-size: clamp(3rem,5vw,8rem);
+}
+
 .footer-scroll:hover {
   cursor: pointer;
-  transform: scale(1.25);
+  transform: scale(1.1);
 }
 
 .footer-scroll:hover span {

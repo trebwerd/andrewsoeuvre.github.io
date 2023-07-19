@@ -74,6 +74,7 @@
   width: clamp(15rem, 30vw, 45rem);
   border-radius: 1rem;
   margin-bottom: clamp(1rem, 2vw, 3rem);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 

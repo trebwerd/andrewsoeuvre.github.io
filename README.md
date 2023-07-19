@@ -1,1 +1,3 @@
-# kuharski.github.io
+# andrewsoeuvre.github.io
+
+Personal website for all my creative endeavors!

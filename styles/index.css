@@ -1,0 +1,142 @@
+
+.homepage {
+  padding-top: clamp(18rem, 14vw, 26rem);
+  padding-bottom: 26rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  background-color: var(--main-bg-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.home-text {
+  background-color: var(--main-bg-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.hello-text {
+  font-size: clamp(4rem,7vw,8rem);
+}
+.name-text {
+  font-size: clamp(2.5rem,4vw,6rem);
+}
+
+.lines-img {
+  object-fit: cover;
+  width: clamp(30rem, 40vw, 60rem);
+  border-radius: 1rem;
+}
+
+/* marquee styling below */
+.recent-poems {
+  padding-top: 0rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  background-color: var(--main-bg-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  /* marquee vars */
+  --marquee-width: 80vw;
+  --marquee-height: 20vh;
+  --marquee-elements-displayed: 1;
+  --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
+  --marquee-animation-duration: calc(var(--marquee-elements) * 6s);
+}
+
+.recent-text {
+  font-size: clamp(1.5rem,3vw,4rem);
+}
+
+.marquee {
+  
+  width: var(--marquee-width);
+  height: var(--marquee-height);
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee:before, .marquee:after {
+  position: absolute;
+  top: 0;
+  width: 12rem;
+  height: 100%;
+  content: "";
+  z-index: 3;
+}
+
+.marquee:before {
+  left: 0;
+  background: linear-gradient(to right, var(--main-bg-color) 0%, transparent 100%);
+}
+.marquee:after {
+  right: 0;
+  background: linear-gradient(to left, var(--main-bg-color) 0%, transparent 100%);
+}
+
+.marquee-content {
+  list-style: none;
+  height: 50%;
+  display: flex;
+  animation: scrolling var(--marquee-animation-duration) linear infinite;
+  margin-top: 3vw;
+  margin-bottom: 6vw;
+}
+
+@keyframes scrolling {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-1 * var(--marquee-element-width) * 
+  var(--marquee-elements))); }
+}
+
+.marquee-content li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-shrink: 0;
+  width: var(--marquee-element-width);
+  max-height: 100%;
+  font-size: clamp(1.5rem,3vw,4rem);
+  white-space: nowrap;
+}
+
+.marquee-content li:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .recent-poems {
+    
+    --marquee-height: 14vh;
+    --marquee-elements-displayed: 1;
+    --marquee-animation-duration: calc(var(--marquee-elements) * 4s);
+  }
+  .marquee:before, .marquee:after { width: 8rem; }
+}
+
+@media only screen and (max-width: 1500px) {
+  .homepage {
+    flex-direction: column;
+    padding-top: clamp(14rem, 12vw, 16rem);
+    padding-bottom: clamp(8rem, 4vw, 12rem);
+  }
+  .lines-img {
+    margin-top: clamp(8rem, 4vw, 14rem);
+    margin-bottom: clamp(8rem, 4vw, 14rem);
+    width: clamp(30rem, 70vw, 100rem);
+  }
+  .home-text {
+    width: clamp(30rem, 70vw, 100rem);
+  }
+
+}

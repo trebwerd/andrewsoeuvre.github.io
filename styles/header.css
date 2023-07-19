@@ -123,6 +123,15 @@ a {
   color: var(--main-text-color);
 }
 
+@media only screen and (max-width: 500px) {
+  .nav-logo {
+    transition: none;
+  }
+  .nav-logo:hover {
+    transform: none;
+  }
+}
+
 @media only screen and (max-width: 750px) {
   .nav-list {
       position: fixed;

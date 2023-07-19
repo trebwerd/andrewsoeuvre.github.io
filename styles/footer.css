@@ -37,6 +37,20 @@
   animation-delay: 0s;
 }
 
+@media only screen and (max-width: 500px) {
+  .footer-scroll {
+    transition: none;
+  }
+  .footer-scroll:hover {
+    cursor: pointer;
+    transform: none;
+  }
+  .footer-scroll:hover span {
+    position: relative;
+    display: inline-block;
+    animation: none;
+  }
+}
 
 @keyframes flip {
   0%, 80% {

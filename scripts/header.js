@@ -39,14 +39,3 @@ function navHide() {
     }
     lastScrollTop = scrollTop;
 }
-
-// fade out pages
-$(document).ready(function(){
-    $('.nav-link, .nav-logo-text').click(function(e){
-        redirect = $(this).attr('href');
-        e.preventDefault();
-        $('body').fadeOut(700, function(){
-            document.location.href = redirect
-        });
-    });
-});

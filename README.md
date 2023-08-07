@@ -1,3 +1,3 @@
 # andrewsoeuvre.github.io
 
-Personal website for all my creative endeavors!
+Personal website for all my creative endeavours, where I share my poetry, short stories, and drawings!

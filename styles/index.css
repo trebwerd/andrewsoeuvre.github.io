@@ -135,8 +135,9 @@
   object-fit: cover;
   width: clamp(30rem, 50vw, 75rem);
   border-radius: 1rem;
-  filter: blur(3.5px);
-  border: 5px solid var(--main-text-color);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  filter: blur(2.5px);
+  border: 2px solid var(--main-text-color);
 }
 
 .buck-text {
@@ -156,6 +157,7 @@
 }
 
 @media only screen and (max-width: 600px) {
+
   .recent-poems {
     
     --marquee-height: 14vh;
@@ -185,6 +187,7 @@
   }
 
   .recent-stories .buck-img {
+    filter: blur(1.5px);
     width: clamp(30rem, 70vw, 100rem);
   }
 

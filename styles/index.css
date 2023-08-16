@@ -37,6 +37,7 @@
   padding-top: 0rem;
   padding-left: 5rem;
   padding-right: 5rem;
+  padding-bottom: clamp(2rem, 4vw, 10rem);
   background-color: var(--main-bg-color);
   display: flex;
   flex-direction: column;
@@ -114,6 +115,46 @@
   cursor: pointer;
 }
 
+.recent-stories {
+  background-color: var(--main-bg-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.recent-stories a {
+  cursor: pointer;
+  margin-top: clamp(8rem, 4vw, 14rem);
+  margin-bottom: clamp(8rem, 6vw, 18rem);
+}
+
+.buck-img {
+  object-fit: cover;
+  width: clamp(30rem, 50vw, 75rem);
+  border-radius: 1rem;
+  filter: blur(3.5px);
+  border: 5px solid var(--main-text-color);
+}
+
+.buck-text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: clamp(2.8rem,6vw,7rem);
+}
+
+.buck-click {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: clamp(1.2rem,2vw,2.5rem);
+}
+
 @media only screen and (max-width: 600px) {
   .recent-poems {
     
@@ -128,15 +169,27 @@
   .homepage {
     flex-direction: column;
     padding-top: clamp(14rem, 12vw, 16rem);
-    padding-bottom: clamp(8rem, 4vw, 12rem);
+    padding-bottom: 0;
   }
   .lines-img {
-    margin-top: clamp(8rem, 4vw, 14rem);
-    margin-bottom: clamp(8rem, 4vw, 14rem);
+    margin-top: clamp(6rem, 4vw, 14rem);
+    margin-bottom: clamp(4rem, 6vw, 14rem);
     width: clamp(30rem, 70vw, 100rem);
   }
   .home-text {
     width: clamp(30rem, 70vw, 100rem);
   }
 
+  .recent-stories {
+    margin-top: clamp(4rem, 4vw, 14rem);
+  }
+
+  .recent-stories .buck-img {
+    width: clamp(30rem, 70vw, 100rem);
+  }
+
+  .recent-stories a {
+    margin-top: clamp(4rem, 4vw, 14rem);
+    margin-bottom: clamp(6rem, 6vw, 18rem);
+  }
 }

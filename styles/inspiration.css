@@ -32,11 +32,12 @@
   font-size: 2rem;
 }
 
-.larger-lines-2 {
+.montreal {
   object-fit: cover;
   width: clamp(15rem, 30vw, 45rem);
   border-radius: 1rem;
   margin-right: 8rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .album-book-container {
@@ -94,7 +95,7 @@
     flex-direction: column;
   }
 
-  .larger-lines-2 {
+  .montreal {
     margin-bottom: clamp(6rem, 4vw, 14rem);
     width: clamp(25rem, 70vw, 80rem);
     margin-right: 0;

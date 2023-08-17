@@ -144,6 +144,7 @@
   position: absolute;
   top: 20%;
   left: 50%;
+  color: var(--main-text-color);
   transform: translate(-50%, -50%);
   font-size: clamp(2.8rem,6vw,7rem);
 }
@@ -152,6 +153,7 @@
   position: absolute;
   top: 30%;
   left: 50%;
+  color: var(--main-text-color);
   transform: translate(-50%, -50%);
   font-size: clamp(1.2rem,2vw,2.5rem);
 }

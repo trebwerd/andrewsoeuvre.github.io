@@ -60,7 +60,7 @@
 }
 
 .recent-text {
-  font-size: clamp(1.5rem,3vw,4rem);
+  font-size: clamp(2rem,3vw,4rem);
 }
 
 .marquee {
@@ -158,7 +158,7 @@
 
 .story-img {
   object-fit: cover;
-  width: clamp(30rem, 35vw, 75rem);
+  width: clamp(30rem, 35vw, 60rem);
   border-radius: 1rem;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
@@ -222,10 +222,10 @@
   }
 
   .recent-thing .story-img {
-    width: clamp(30rem, 70vw, 100rem);
+    width: clamp(30rem, 45vw, 60rem);
   }
 
   .recent-poems { margin-top: clamp(4rem, 4vw, 14rem); }
 
-  .recent-thing a { margin-top: clamp(4rem, 4vw, 14rem); }
+  .recent-thing a { margin-top: clamp(2rem, 4vw, 14rem); }
 }

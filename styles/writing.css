@@ -98,8 +98,6 @@
   width: clamp(30rem, 60vw, 80rem);
   border-radius: 1rem;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-  filter: blur(2.5px);
-  border: 2px solid var(--main-text-color);
 }
 
 .story-text {
@@ -186,10 +184,6 @@
 
   .tale-titles {
     width: clamp(30rem, 60vw, 80rem);
-  }
-
-  .stories .story-img {
-    filter: blur(1.5px);
   }
 
   .stories a {

@@ -1,0 +1,60 @@
+.no-words {
+    padding-top: clamp(18rem, 12vw, 16rem);
+    padding-bottom: clamp(8rem, 5vw, 14rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+}
+
+.no-words-text {
+    font-size: clamp(3rem,6vw,8rem);
+}
+
+.music-container {
+    background-color: var(--main-bg-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: clamp(6rem, 12vw, 22rem);
+}
+
+.song-card {
+    background-color: var(--main-bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.song-title {
+    font-size: clamp(2rem,4vw,4rem);
+    margin-top: clamp(2rem,6vw,4rem);
+    margin-bottom: clamp(2rem,6vw,4rem);
+}
+
+.song-img {
+    object-fit: cover;
+    width: clamp(30rem, 35vw, 50rem);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.audio-controls {
+    width: clamp(30rem, 35vw, 50rem);
+}
+
+@media only screen and (max-width: 880px) {
+
+    .no-words {
+        padding-top: clamp(12rem, 10vw, 16rem);
+        padding-bottom: clamp(4rem, 3vw, 12rem);
+    }
+
+
+}

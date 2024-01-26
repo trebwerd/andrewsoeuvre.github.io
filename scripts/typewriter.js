@@ -1,6 +1,6 @@
 function typeWriterEffect() {
 
-  const words = [ 'write poems.', 'make music.', 'draw sketches.', 'like to read.'];
+  const words = [ 'write poems.', 'draw sketches.', 'write programs.', 'make music.'];
   let wordCount = 0;
   let letterCount = 0;
 
@@ -26,10 +26,10 @@ function typeWriterEffect() {
 
     document.querySelector(".typewrite").textContent = currentText;
 
-    timeOut = isDeleting ? 200 : 400;
+    timeOut = isDeleting ? 100 : 150;
 
     if(!isDeleting && currentText.length === currentWord.length) {
-      timeOut = 2000;
+      timeOut = 1500;
       isDeleting = true;
     } else if(isDeleting && currentText.length === 0) {
       timeOut = 1000;

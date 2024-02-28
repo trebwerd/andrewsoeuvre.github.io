@@ -1,6 +1,6 @@
 function typeWriterEffect() {
 
-  const words = [ 'write poems.', 'draw sketches.', 'write programs.', 'make music.'];
+  const words = [ 'write poems.', 'make music.', 'draw sketches.', 'write programs.'];
   let wordCount = 0;
   let letterCount = 0;
 

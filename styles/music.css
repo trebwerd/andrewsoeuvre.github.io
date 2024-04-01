@@ -1,6 +1,6 @@
 .no-words {
     padding-top: clamp(18rem, 12vw, 16rem);
-    padding-bottom: clamp(8rem, 5vw, 14rem);
+    padding-bottom: clamp(8rem, 4vw, 10rem);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,7 +19,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: clamp(6rem, 12vw, 22rem);
+    margin-bottom: clamp(6rem, 6vw, 12rem);
 }
 
 .song-card {

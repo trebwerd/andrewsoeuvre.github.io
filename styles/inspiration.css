@@ -11,7 +11,7 @@
 }
 
 .remark-text {
-  font-size: clamp(2rem,5vw,8rem);
+  font-size: clamp(4rem,6vw,8rem);
 }
 
 .inspo-intro {

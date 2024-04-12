@@ -29,7 +29,7 @@ function typeWriterEffect() {
     timeOut = isDeleting ? 100 : 100;
 
     if(!isDeleting && currentText.length === currentWord.length) {
-      timeOut = 4800;
+      timeOut = 3600;
       isDeleting = true;
     } else if(isDeleting && currentText.length === 0) {
       timeOut = 100;

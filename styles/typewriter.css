@@ -5,17 +5,20 @@
   justify-content: center;
 }
 
-.I {
-  font-size: clamp(2.5rem,4vw,6rem);
+.art-text {
+  font-size: clamp(2rem,5vw,5rem);
+  margin-top: clamp(1rem, 2vw, 6rem);
 }
 
 .typewrite {
-  font-size: clamp(2.5rem,4vw,6rem);
+  font-size: clamp(2rem,5vw,5rem);
+  margin-top: clamp(1rem, 2vw, 6rem);
   position: relative;
 }
 
 .typewrite::after {
-  font-size: clamp(2.5rem,4vw,6rem);
+  font-size: clamp(2rem,5vw,5rem);
+  margin-top: clamp(1rem, 2vw, 6rem);
   content: '|';
   animation: blink 1.2s infinite;
 }
@@ -25,3 +28,4 @@
   50% {opacity: 1;}
   100% {opacity: 0;}
 }
+

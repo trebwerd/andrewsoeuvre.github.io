@@ -28,18 +28,10 @@
   font-size: 2.2rem;
 }
 
-.forest-img {
+.lines-img {
   object-fit: cover;
   width: clamp(30rem, 60vw, 80rem);
   border-radius: 1.5rem;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-}
-
-.flint-img {
-  object-fit: cover;
-  width: clamp(15rem, 15vw, 50rem);
-  border-radius: clamp(15rem, 30vw, 50rem);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .poem-card {

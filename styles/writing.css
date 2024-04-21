@@ -12,8 +12,8 @@
 }
 
 .preface-text {
-  padding-bottom: clamp(5rem, 3vw, 12rem);
-  font-size: clamp(2.6rem,6vw,8rem);
+  padding-bottom: clamp(8rem, 4vw, 10rem);
+  font-size: clamp(4rem,7vw,9rem);
   align-items: center;
 }
 
@@ -135,8 +135,12 @@
 @media only screen and (max-width: 1335px) {
   
   .preface {
-    padding-top: clamp(14rem, 12vw, 16rem);
-    padding-bottom: clamp(6rem, 4vw, 14rem);
+    padding-top: clamp(12rem, 10vw, 16rem);
+    padding-bottom: clamp(4rem, 3vw, 12rem);
+  }
+
+  .preface-text {
+    padding-bottom: clamp(4rem, 3vw, 12rem);
   }
 
   .poem-card h3 {

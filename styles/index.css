@@ -20,6 +20,8 @@
 .title-text {
   text-align: center;
   font-size: clamp(4rem,9vw,9rem);
+  padding-left: 12rem;
+  padding-right: 12rem;
 }
 
 .lines-img {

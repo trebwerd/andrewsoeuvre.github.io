@@ -1,10 +1,12 @@
 .preface {
   padding-top: clamp(18rem, 12vw, 16rem);
-  padding-bottom: clamp(16rem, 10vw, 20rem);
+  padding-bottom: clamp(10rem, 3vw, 12rem);
+  padding-left: 5rem;
+  padding-right: 5rem;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: top;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
 }
@@ -14,13 +16,13 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  text-align: center;
   width: clamp(15rem, 30vw, 40rem);
   margin-right: clamp(5rem, 6vw, 10rem);
 }
 
 .preface-text h1 {
   font-size: clamp(2.6rem,6vw,8rem);
-  padding-bottom: clamp(2.6rem,6vw,8rem);
 }
 
 .preface-text p {
@@ -142,13 +144,12 @@
   .preface {
     padding-top: clamp(14rem, 12vw, 16rem);
     padding-bottom: clamp(6rem, 4vw, 14rem);
-    flex-direction: column;
-    align-items: center;
+
   }
 
   .preface-text {
     width: clamp(30rem, 60vw, 80rem);
-    margin-bottom: clamp(8rem, 4vw, 14rem);
+    padding-bottom: clamp(5rem, 3vw, 12rem);
     margin-right: 0;
   }
 

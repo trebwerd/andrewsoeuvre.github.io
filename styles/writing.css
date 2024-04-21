@@ -12,13 +12,9 @@
 }
 
 .preface-text {
-  background-color: var(--main-bg-color);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  text-align: center;
-  width: clamp(15rem, 30vw, 40rem);
-  margin-right: clamp(5rem, 6vw, 10rem);
+  padding-bottom: clamp(5rem, 3vw, 12rem);
+  font-size: clamp(2.6rem,6vw,8rem);
+  align-items: center;
 }
 
 .preface-text h1 {
@@ -147,11 +143,11 @@
 
   }
 
-  .preface-text {
+  /* .preface-text {
     width: clamp(30rem, 60vw, 80rem);
     padding-bottom: clamp(5rem, 3vw, 12rem);
     margin-right: 0;
-  }
+  } */
 
   .preface-text p {
     font-size: clamp(1.5rem, 1.9vw, 2.5rem);

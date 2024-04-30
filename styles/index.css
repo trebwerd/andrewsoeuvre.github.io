@@ -194,7 +194,10 @@
   .recent-content {
     flex-direction: column;
   }
-
+  .title-text {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
   .typing-container {
     /* margin-top: clamp(4rem, 4vw, 14rem); */
     margin-top: clamp(2rem, 2vw, 6rem);

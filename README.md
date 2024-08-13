@@ -1,3 +1,3 @@
-# andrewsoeuvre.github.io
+# teliik.net
 
-Personal website for all my creative endeavours, where I share my poetry, music, short stories, and drawings!
+it's so much more than japanese candy

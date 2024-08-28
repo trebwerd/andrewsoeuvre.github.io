@@ -40,6 +40,32 @@ a {
   border-bottom: none;
 }
 
+.title {
+  font-size: 0rem;
+  font-weight: bold;
+  position: relative;
+  transition: ease-in-out 0.5s;
+  color: var(--main-text-color);
+}
+
+.title span {
+  font-size: 2rem;
+  margin-left: 0.65rem;
+  margin-right: 0.65rem;
+}
+
+.title:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.title:hover span {
+  position: relative;
+  display: inline-block;
+  animation: flip 2.5s infinite;
+  animation-delay: 0s;
+}
+
 .navbar {
   z-index: 10;
   display: flex;

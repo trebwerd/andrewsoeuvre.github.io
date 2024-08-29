@@ -26,18 +26,18 @@
 }
 
 .intro-text {
-  width: clamp(18rem, 30vw, 45rem);
+  width: clamp(18rem, 40vw, 45rem);
   text-align: justify;
   align-items: center;
   font-size: 2rem;
 }
 
 .montreal {
-  object-fit: cover;
-  width: clamp(15rem, 30vw, 45rem);
-  border-radius: 1rem;
+  object-fit: contain;
+  width: clamp(15rem, 50vw, 60rem);
   margin-right: 8rem;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  /* border-radius: 1rem; */
+  /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); */
 }
 
 .album-book-container {
@@ -103,6 +103,7 @@
 
   .intro-text {
     width: clamp(25rem, 70vw, 80rem);
+    
     font-size: clamp(1.5rem, 2vw, 3rem);
   }
 

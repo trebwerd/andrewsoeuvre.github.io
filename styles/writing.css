@@ -43,14 +43,14 @@
 
 .poem-card h3 {
   font-size: 2.4rem;
-  padding: clamp(1rem, 2vw, 6rem);
+  padding: clamp(1rem, 1vw, 6rem);
   padding-top: clamp(2rem, 3vw, 8rem);
   background-color: var(--nav-footer-color);
 }
 
 .poem-card p {
-  padding: clamp(1rem, 2vw, 6rem);
-  /* padding-bottom: clamp(2rem, 3vw, 8rem); */
+  padding: clamp(1rem, 1vw, 6rem);
+  padding-top: 0.5rem;
   padding-bottom: clamp(5rem, 3vw, 10rem);
   text-align: justify;
   font-size: 2.2rem;

@@ -166,7 +166,7 @@ a {
   .nav-list {
       position: fixed;
       left: -110%;
-      top: 7.6rem;
+      top: 6.8rem;
       flex-direction: column;
       background-color: var(--nav-footer-color);
       width: 100%;
